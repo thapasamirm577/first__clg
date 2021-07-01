@@ -185,3 +185,43 @@
     width: 15% !important;
 }
    
+/* why csit */
+.footer{
+	padding:20px;
+	margin-top:20px;
+	color:white;
+	background-color:hsl(210, 86%, 28%);
+	text-align: left;
+    padding-left: 50px;
+}
+#boxes{
+	margin-top:20px;
+
+}
+#boxes .box{
+	float:left;
+	text-align: center;
+	width:30%;
+	padding:10px;
+    margin-left:20px;
+}
+
+.container{
+    text-align: center;
+    
+    background-color:white;
+    height:300px;
+    padding-top:5px;
+}
+.box{
+    background-color: whitesmoke;
+}
+
+.social{
+   color:white;
+   float:right;
+   margin-top:-40px;
+   font-size:20px;
+   cursor:pointer;
+}
+
