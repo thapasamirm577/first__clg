@@ -38,3 +38,150 @@
         overflow: hidden;
     }
 }
+
+
+/* Navbar and Home */
+
+.upper{
+    background-image: url("../assets/home/clgpic1.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    height: 20rem;
+    padding-top: 0.4rem;
+      
+}
+.navbar{
+    position: absolute;
+    display: flex;
+    top: 0;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    background-color: rgba(0, 0, 255, 0.37);
+    height: 6rem;
+}
+.navbar ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar ul li{
+    margin-right: 20px;
+    float: left;
+   line-height: 80px;
+   text-transform: uppercase;
+   transition: all 0.5s ease;
+   
+}
+.navbar ul li:not(:nth-child(3)){
+    padding: 0.4rem 0.5rem;
+}
+.navbar ul li:nth-child(3){
+    padding-top: 0.6rem;
+
+}
+.navbar ul li:not(:nth-child(3)):hover{
+    background-color: blue;
+}
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.welcome{
+    margin: 5px;
+    display: inline-block;
+    margin: 2rem auto;
+}
+#welcme{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0;
+    padding: 10px;
+    clear: both;
+    text-align: center;
+    overflow:hidden;
+}
+.welcome p {
+    font-size: 1.5em;
+    line-height: 1em;
+    text-align: center;
+    display: block;
+    padding-bottom: 2em;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.chief{
+    display: flex;
+    flex-grow: row nowrap;
+    margin: 2rem auto;
+}
+.chief h2{
+    font-size: 2rem;
+}
+
+.chief p {
+
+    padding-left: 4em;
+    font-size: 1.5em;
+    line-height: 1em;
+    text-align: center;
+    display: block;
+    padding-bottom: 2em;
+}
+.chiefPhoto{
+    padding-right: 15em;
+  padding-bottom: 20px;
+    height: 40px;
+    width: 40px;
+}
+.section{
+    position: absolute;
+    display: flex;
+   font-size: 1.5rem;
+   text-align: center;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    margin-top: 5rem;
+    height: 6rem;
+    text-transform: uppercase;
+}
+.section a{
+    color: black;
+    text-decoration: none;
+}
+
+.teachers {
+	background: rgb(29, 29, 170);
+    padding: 2.5rem;
+    height: 6.5rem;
+	
+}
+.lab{
+    background: rgb(29, 29, 170);;
+    padding: 2.5rem;
+    height: 6.5rem;
+}
+.fees{
+    background: rgb(29, 29, 170);;
+    padding: 1.8rem;
+    height: 6.5rem;
+
+
+}
+.gallary{
+    background: rgb(29, 29, 170);;
+    padding: 2.5rem;
+    height: 6.5rem;
+
+}
+.btn-all{
+    width: 15% !important;
+}
+   
