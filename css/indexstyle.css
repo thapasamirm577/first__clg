@@ -225,3 +225,140 @@
    cursor:pointer;
 }
 
+/* mentor ko css */
+
+.external{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    margin: 4rem auto;
+
+    align-items: center;
+    min-height: 30rem;
+    flex-flow:row wrap;
+    
+}
+
+.photo{
+    width: 30%;
+    height: 350px;
+    padding: 2rem 1rem;
+    background-color: #fff;
+    position: relative;
+    display: flex;
+    align-items:center;
+    box-shadow: 0px 7px 10px rgba(0,0,0,0.5);
+    transition: 0.5s ease-in-out;
+    margin-bottom: 2rem;
+
+}
+
+.photo:hover{
+    transform: translateY(20px);
+
+}
+
+.photo::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(51, 150, 138, 0.5),rgba(150,201,61,1));
+    z-index: 2;
+    transition: 0.5s all;
+    opacity: 0;
+}
+
+.photo:hover::before{
+    opacity: 1;
+
+}
+
+.photo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position:absolute;
+    top: 0;
+    left: 0; 
+}
+.photo .details{
+    position: relative;
+    z-index: 3;
+    color: #fff;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: 0.5s all;
+
+}
+
+.photo:hover .details{
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+.photo .details p{
+    letter-spacing: 1px;
+    font-size: 15px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+
+
+
+@media screen and (max-width:1100px){
+    
+    .external{ width: 90%}
+}
+
+@media screen and (max-width:750px){
+    
+    .external{
+         width: 90%;
+         display: block;
+
+        }
+    .photo{
+        margin-top:1rem;
+        width: 100%;
+    }
+}
+
+
+
+
+/* section ko css */
+
+
+.container{
+    width: 1000px;
+    height: 250px;
+    border: 1px solid red;
+    margin: 0 auto;
+}
+.col{
+    width: 125px;
+    height: 15px;
+    background-color: pink;
+    float: left;
+    border: 2px solid black;
+    padding: 30px;
+    margin: 30px;
+    font-size: 19px;
+    padding: 18px 25px;
+    font-weight: normal;
+}
+.col p{
+    text-align: center;
+    position:relative;
+    bottom: 160%;
+    text-shadow: 2px 2px 5px red;
+
+}
+ 
+.col:hover{
+    background-color: cornflowerblue;
+}
