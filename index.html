@@ -18,215 +18,530 @@
         <p>Under Construction</p>
     </div> -->
 
-        <!-- Navbar And Home -->
-        <div class="upper">
-        
-        
-        </div>
-        <div class="navbar">
-            <ul>
+    <!------------------------- Navbar And Home -------------------->
+    <div class="upper" id="upper"> </div>
+    <div class="navbar">
+        <ul>
+            <a href="#carrer">
                 <li>
-                    <a href="carrer.html">Carrers</a>
+                    Carrers
                 </li>
+            </a>
+            <a href="#semester">
                 <li>
-                    <a href="semester.html">Semester</a>
+                    Semester
                 </li>
-                <li> 
-                    <img src="assets/home/tu.png" height="60px" width="60px" alt="">
-                </li>
+            </a>
+            <li> 
+                <img src="assets/home/tu.png" height="60px" width="60px" alt="">
+            </li>
+            <a href="#upcomingEvents">
                 <li>
-                    <a href="announcement">Announcement</a>
+                    Announcement
                 </li>
+            </a>
+            <a href="#contact">
                 <li>
-                    <a href="contact.html">Contact</a>
+                    Contact
                 </li>
-            </ul>
-        </div>
-    
-        <div class="welcome">
-            <h1 id="welcme">Welcome</h1>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis assumenda, consequuntur facere explicabo dignissimos laborum quo saepe nulla, quod ratione enim quam accusamus vel amet, illum aperiam placeat. Odit, ipsum!
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores quaerat in earum a quam eos similique neque ipsam voluptatum consequuntur recusandae voluptate, culpa maxime voluptas, quis cumque facere atque sunt.
-                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum officia voluptates dolore similique nostrum ducimus sed eum. Asperiores, beatae placeat laborum temporibus eum similique est quam ut ea! Maiores, odio?</p>
-        </div>
-    
-        <div class="chief">
-            <div class="chiefMessage">
-                <h2 id="chef">Chief's Message</h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque exercitationem atque quibusdam eius fugit. Ea, quae, voluptate suscipit quidem beatae hic modi saepe nemo cum voluptatem dicta labore alias cumque?</p>
-            </div>
-            <div class="chiefPhoto">
-                <img src="assets/home/chief.jpg" height="200px" width="200px" alt="">
-            </div>
-        </div>
-    
-        <div class="section">
-            <div class=" teachers btn-all">
-                <a href="teachers.html">Teachers</a>
-            </div>
-            <div class="lab btn-all">
-                <a href="lab.html">Lab</a>
-            </div>
-            <div class="fees btn-all">
-                <a href="fees.html">Fees Structure</a>
-            </div>
-            <div class="gallary btn-all">
-                <a href="gallary.html">Gallary</a>
-            </div>
-        </div>
-        <!-- Why CSIT? -->
-        <section id="boxes">
+            </a>
+        </ul>
+    </div>
 
-            <div class="container">
-                <h1>Why Choose CSIT</h1>
-                <div class="box">
-                    <h3>Develops Skills</h3>
-                    <p>Along with academic qualifications,you will get to develop your skills on various fields which can help you explore the world.
-                            The society needs skillful personnel along with some academic qualification, so CSIT can be the better option for your
-                            carrer. Attending several trainings, webinars, seminars will definitly help you build your skills on various fields.
-                    </p>
-    
-    
+    <!-------------------------navabr small------------------------->
+    <div class="navbar__small">
+        <div>
+            <img src="assets/home/tu.png" height="60px" width="60px" alt="">
+            <button class="menu__bar">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+           
+        <ul id="small_menu_list">
+            <li>
+                <a href="#carrer">Carrers</a>
+            </li>
+            <li>
+                <a href="#semester">Semester</a>
+            </li>
+            <li>
+                <a href="#upcomingEvents">Announcement</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </div>
+
+
+    <!----------------------------------Welcome--------------------->
+    <div class="welcome all__container__box">
+        <h1 id="welcme">Welcome</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis assumenda, consequuntur facere explic Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus cum, fuga quidem modi earum animi voluptas quo repellat molestiae, adipisci nisi blanditiis mollitia est, necessitatibus tempore voluptatibus quisquam itaque unde. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus autem accusamus sint dolorum, illo maiores! Minima non quaerat ullam facere.
+        </p>
+    </div>
+
+    <!------------------------------Chief message------------------->
+
+    <div class="chief all__container__box">
+        <div class="chiefMessage">
+            <h2>Chief's Message</h2>
+            <div class="quote__chief">
+                <i style="font-size:1.5rem; color: darkblue;" class="fas fa-quote-left"></i>
+            </div> 
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque exercitationem atque quibusdam eius fugit. Ea, quae, voluptate suscipit quidem beatae hic modi saepe nemo cum voluptatem dicta labore alias cumque?
+            </p>
+        </div>
+        <div class="chiefPhoto">
+            <img src="assets/home/chief.jpg" alt="principle image">
+        </div>
+    </div>
+     <!------------------------------up btn------------------------->
+    <section class="up">
+        <a href="#upper"><i class="fas fa-arrow-circle-up"></i></a> 
+    </section>
+
+    <!-------------------------------Direct link--------------------->
+    <div class="all__container__box_nC">
+        <div class="section__btn__all">
+            <div class="btn__indiv__container">
+                <a href="#teacher">
+                    <div class=" teachers btn-all">
+                       Teacher
+                    </div>
+                </a>
+
+            </div>
+            
+            <div class="btn__indiv__container">
+            <a href="#gallery">
+                <div class="lab btn-all">
+                    Lab
                 </div>
-                <div class="box">
-                    <h2>Builds Network</h2>
-                    <p>You will get a chance to be familiar with people across the nation. Getting in touch with people around the nation or world, you will also be 
-                        able to evaluate yourself, you can feel your knowledge. Building your circle makes you understand the condition about how the 
-                        IT sector is improving.
+            </a>
+            </div>
+
+           <div class="btn__indiv__container">
+            <a href="#fee">
+                <div class="fees btn-all">
+                  Fee Structure
+                </div>
+            </a>
+            </div>
+            <div class="btn__indiv__container">
+            <a href="#gallery">
+                <div class="gallary btn-all">
+                   gallery
+                </div>
+            </a>
+            </div>
+        </div>
+
+    </div>
     
+    <!------------------------------ Why CSIT? ----------------------->
+    <section class="all__container__box" id="boxes">
+        <div class="container__whyCSIT">
+            <h1>Why Choose CSIT ?</h1>
+            
+            <div class="box">
+                <h2>Builds Network</h2>
+                <p>You will get a chance to be familiar with people across the nation. Getting in touch with people around the nation or world, you will also be 
+                    able to evaluate yourself, you can feel your knowledge. Building your circle makes you understand the condition about how the 
+                    IT sector is improving.
+
+                </p>
+            </div>
+            <div class="box">
+                <h2>Develops Skills</h2>
+                <p>Along with academic qualifications,you will get to develop your skills on various fields which can help you explore the world.
+                        The society needs skillful personnel along with some academic qualification, so CSIT can be the better option for your
+                        carrer. Attending several trainings, webinars, seminars will definitly help you build your skills on various fields.
+                </p>
+    
+    
+            </div>
+            <div class="box">
+                <h2>No Boring Life</h2>
+                <p> As we all know, Life is all about new experiences each day. Each day exploring new things won't make your job boring.
+                     You will get to explore new things, ideas each day which won't let you feel dumb. IT is all about updating ourselves and 
+                     we all know updating each and every day isn't boring at all.
+
+                </p>
+            </div>
+        </div>
+    </section>
+        
+    <!---------------------------- mentors section ------------------->
+    <div class="teacher__section all__container__box" id="teacher">
+        <header class="teacher__title">
+            <h4>Meet Our Mentors</h4>
+        </header>
+        <div class="external" >
+            <div class="photo">
+                <img src="./assets/teachers/1.jpg" alt="">
+                <div class="details">
+                    <h2>John Myuk</h2>
+                    <p>-job1</p>
+                    <p class="teacher__social_media">
+                        <a href="#"><i class="fab fa-facebook-square"></i></a>
+                        <a href="#"><i class="fab fa-twitter-square"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a> 
                     </p>
                 </div>
-                <div class="box">
-                    <h2>No Boring Life</h2>
-                    <p> As we all know, Life is all about new experiences each day. Each day exploring new things won't make your job boring.
-                         You will get to explore new things, ideas each day which won't let you feel dumb. IT is all about updating ourselves and 
-                         we all know updating each and every day isn't boring at all.
+            </div>
     
+    
+            <div class="photo">
+                <img src="./assets/teachers/7.jpg" alt="">
+                <div class="details">
+                    <h2>Kim Soon Joo</h2>
+                    <p>-job1</p>
+                    <p class="teacher__social_media">
+                        <a href="#"><i class="fab fa-facebook-square"></i></a>
+                        <a href="#"><i class="fab fa-twitter-square"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a> 
                     </p>
                 </div>
+            </div>
+    
+    
+            <div class="photo">
+                <img src="./assets/teachers/3.jpg" alt="">
+                <div class="details">
+                    <h2>Gue Hyung</h2>
+                    <p>-job1</p>
+                    <p class="teacher__social_media">
+                        <a href="#"><i class="fab fa-facebook-square"></i></a>
+                        <a href="#"><i class="fab fa-twitter-square"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a> 
+                    </p>
+                </div>
+            </div>
+    
+    
+    
+            <div class="photo">
+                <img src="./assets/teachers/6.jpg" alt="">
+                <div class="details">
+                    <h2>Wex Nughei</h2>
+                    <p>-job1</p>
+                    <p class="teacher__social_media">
+                        <a href="#"><i class="fab fa-facebook-square"></i></a>
+                        <a href="#"><i class="fab fa-twitter-square"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a> 
+                    </p>
+                </div>
+            </div>
+    
+    
+            <div class="photo">
+                <img src="./assets/teachers/4.jpg" alt="">
+                <div class="details">
+                    <h2>Bang Liang</h2>
+                    <p>-job1</p>
+                    <p class="teacher__social_media">
+                        <a href="#"><i class="fab fa-facebook-square"></i></a>
+                        <a href="#"><i class="fab fa-twitter-square"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a> 
+                    </p>
+                </div>
+            </div>
+    
+            <div class="photo">
+                <img src="./assets/teachers/5.jpg" alt="">
+                <div class="details">
+                    <h2>name1</h2>
+                    <p>-job1</p>
+                    <p class="teacher__social_media">
+                        <a href="#"><i class="fab fa-facebook-square"></i></a>
+                        <a href="#"><i class="fab fa-twitter-square"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a> 
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    
+    <!--------------------------- section semester-------------------->
+    <div class="semester__container all__container__box" id="semester">
+        <div class="col"><p>1st-semester</p></div>
+        <div class="col"><p>2nd-semester</p></div>
+        <div class="col"><p>3rd-semester</p></div>
+        <div class="col"><p>4th-semester</p></div>
+        <div class="col"><p>5th-semester</p></div>
+        <div class="col"><p>6th-semester</p></div>
+        <div class="col"><p>7th-semester</p></div>
+        <div class="col"><p>8th-semester</p></div>
+    
+    </div>
+
+    <!-------------------------- gallery section  -------------------->
+    <section class="gallery section" id="gallery">
+        <h1 class="section-heading center-text">GALLERY</h1>
+        <div class="btn">
+          <button>All</button>
+          <button>Library</button>
+          <button>Lab</button>
+          <button>Extra</button>
+        </div>
+        <div class="image">
+          <div class="item1 grid_item">
+            <a href="./assets/gallery/img.png"><img src="./assets/gallery/img.png" alt="image" /></a>
+          </div>
+          <div class="item2 grid_item">
+            <a href="./assets/gallery/img.png"><img src="./assets/gallery/img.png" alt="image" /></a>
+          </div>
+          <div class="item3 grid_item">
+            <a href="./assets/gallery/library.jpg"
+              ><img src="./assets/gallery/library.jpg" alt="image"
+            /></a>
+          </div>
+          <div class="item4 grid_item">
+            <a href="./assets/gallery/library.jpg"
+              ><img src="./assets/gallery/library.jpg" alt="image"
+            /></a>
+          </div>
+          <div class="item5 grid_item">
+            <a href="./assets/gallery/img.png"><img src="./assets/gallery/img.png" alt="image" /></a>
+          </div>
+          <div class="item6 grid_item">
+            <a href="./assets/gallery/img.png"><img src="./assets/gallery/img.png" alt="image" /></a>
+          </div>
+        </div>
+    </section>
+
+    <!---------------------------carrier section ------------------------->
+    <section class="carrier section" id="carrer">
+        <h2 class="section-heading center-text">CARRIER</h2>
+        <button class="accordion">Web developer</button>
+        <div class="panel">
+          <img src="./assets/gallery/img.png" alt="" />
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+            minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+        </div>
+  
+        <button class="accordion">IT technician</button>
+        <div class="panel">
+          <img src="./assets/gallery/img.png" alt="" />
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+            minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+        </div>
+  
+        <button class="accordion">Systems analyst</button>
+        <div class="panel">
+          <img src="./assets/gallery/img.png" alt="" />
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+            minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+        </div>
+        <button class="accordion">Network engineer</button>
+        <div class="panel">
+          <img src="./assets/gallery/img.png" alt="" />
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+            minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+        </div>
+        <button class="accordion">Database administrator</button>
+        <div class="panel">
+          <img src="./assets/gallery/img.png" alt="" />
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+            minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+        </div>
+    </section>
+
+    <!--------------------------------Fee section------------------------->
+    <section class="fee__container" id="fee">
+        <header class="fee__header">
+            <h1>Fees Structure</h1>
+        </header>
+        <section class="fee__section">
+
+            <p class="fee__description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima qui culpa provident tenetur       similique, reiciendis est enim, quia dolor consectetur iste quisquam beatae perspiciatis cum       accusamus libero dolores, quibusdam quae impedit sapiente? Labore architecto dolores doloribus   qui  ipsam corrupti numquam.
+            </p>
+
+            <table class="fee__table">
+                <caption>Fees Payment</caption>
+                <thead>
+                    <tr>
+                        <th>Semester</th>
+                        <th>Fees(Rs.)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1<sup>st</sup></td>
+                        <td>65,000</td>
+                    </tr>
+    
+                    <tr>
+                        <td>2<sup>nd</sup></td>
+                        <td>65,000</td>
+                    </tr>
+                    <tr>
+                        <td>3<sup>rd</sup></td>
+                        <td>65,000</td>
+                    </tr>
+                    <tr>
+                        <td>4<sup>th</sup></td>
+                        <td>65,000</td>
+                    </tr>
+                    <tr>
+                        <td>5<sup>th</sup></td>
+                        <td>65,000</td>
+                    </tr>
+                    <tr>
+                        <td>6<sup>th</sup></td>
+                        <td>65,000</td>
+                    </tr>
+                    <tr>
+                        <td>7<sup>th</sup></td>
+                        <td>65,000</td>
+                    </tr>
+                    <tr>
+                        <td>8<sup>th</sup></td>
+                        <td scope="row">65,000</td>
+                    </tr>
+                   
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th>Total</th>
+                        <th>2,48,000</th>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+    </section>
+
+    <!-------------------------------Upcoming Events---------------------->
+    <section class="event__container" id="upcomingEvents">
+        <header class="event__header">
+            <h1>
+                Upcoming Events
+            </h1>    
+        </header>
+        <section class="event__section">
+            <article class="first__event event__child">
+                <header class="event__title">
+                    Hackathone 2021
+                </header>
+
+                <strong>
+                    <i style="margin-right: 0.4rem;" class="fas fa-user-alt"></i>Win Chuang | 
+                </strong> 
+                <i style="font-size: 1.5rem;" class="far fa-calendar-alt"></i> 
+                <time>December 21, 2021</time>
+
+                <section class="event__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias sapiente, non laborum temporibus magnam accusantium alias adipisci reiciendis aliquid. Numquam!
+                </section>
+
+            </article>
+            <article class="second__event event__child">
+                <header class="event__title">
+                    Hackathone 2021
+                </header>
+
+                <strong>
+                    <i style="margin-right: 0.4rem;" class="fas fa-user-alt"></i>Win Chuang | 
+                </strong> 
+                <i style="font-size: 1.5rem;" class="far fa-calendar-alt"></i> 
+                <time>December 21, 2021</time>
+
+                <section class="event__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias sapiente, non laborum temporibus magnam accusantium alias adipisci reiciendis aliquid. Numquam!
+                </section>
+            </article>
+
+            <section class="read_more_event">
+                <button class="btn_more_event">View All Events</button>
+            </section>
+
+        </section>
+       
+    </section>
+
+    <!-------------------------------Contact section---------------------->
+
+    <section class="contact__container" id="contact">
+        <header class="contact__header">
+            <h1>
+                Contact us
+            </h1>
+        </header>
+        <section class="contact__section">
+            <div class="map__container">
+                <div class="gmap_canvas">
+                    <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=Butwal%20Multiple%20Campus&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+                    </iframe>
+                </div>
+                <div class="contact__information">
+                    <address>
+                        <i style="color: rgb(23, 23, 100); font-size: 1.5rem;" class="fas fa-map-marker-alt"></i> Golpark, Butwal<br />
+                        <span style="margin-left: 1.12rem;">Rupandehi, Nepal</span>
+                    </address>
+                    <address>
+                        <i style="font-size: 1.5rem; color: rgb(23, 23, 100); margin-right: 0.2rem;" class="fas fa-envelope"></i> mail@bumc.tu.edu.np<br />
+
+                        <i style="font-size: 1.5rem; color: rgb(23, 23, 100); margin-right: 0.2rem;" class="fas fa-phone-alt"></i> +977-0752342
+                    </address>
+
+                </div>
+            </div>
+            <div class="contact__input__container">
+                <header class="contact__input__header">Need Help?</header>
+
+                <form>
+                    <div class="name__section">
+                        <label for="email">Name</label><br />
+                        <input type="text" name="email" id="email" />
+
+                    </div>
+                    <div class="email__section">
+                        <label for="email">Email</label> <br />
+                        <input type="email" name="email" id="email" />
+
+                    </div>
+                    <div class="message__section">
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" cols="30" rows="9"></textarea>
+                    </div>
+                    <div class="contact__submit__btn">
+                        <input type="submit" name="submit" value="Send" />
+
+                    </div>
+                   
+                </form>
             </div>
         </section>
-        
-        <!-- mentors -->
-
-
-        <div class="external">
-            <div class="photo">
-                <img src="./assets/teachers/2.jpg" alt="">
-                <div class="details">
-                    <h2>name1</h2>
-                    <p>job1</p>
-                    <p>
-                        <a href="#"><i class="fa fa-facebook"></i></a>
-                        <a href="#"><i class="fa fa-instagram"></i></a>
-                        <a href="#"><i class="fa fa-twitter"></i></a>
-                        <a href="#"><i class="fa fa-linkedin"></i></a> 
-                    </p>
-                </div>
-            </div>
+    </section>
     
-    
-            <div class="photo">
-                <img src="./assets/teachers/2.jpg" alt="">
-                <div class="details">
-                    <h2>name1</h2>
-                    <p>job1</p>
-                    <p>
-                        <a href="#"><i class="fa fa-facebook"></i></a>
-                        <a href="#"><i class="fa fa-instagram"></i></a>
-                        <a href="#"><i class="fa fa-twitter"></i></a>
-                        <a href="#"><i class="fa fa-linkedin"></i></a> 
-                    </p>
-                </div>
-            </div>
-    
-    
-            <div class="photo">
-                <img src="./assets/teachers/2.jpg" alt="">
-                <div class="details">
-                    <h2>name1</h2>
-                    <p>job1</p>
-                    <p>
-                        <a href="#"><i class="fa fa-facebook"></i></a>
-                        <a href="#"><i class="fa fa-instagram"></i></a>
-                        <a href="#"><i class="fa fa-twitter"></i></a>
-                        <a href="#"><i class="fa fa-linkedin"></i></a> 
-                    </p>
-                </div>
-            </div>
-    
-    
-    
-            <div class="photo">
-                <img src="./assets/teachers/2.jpg" alt="">
-                <div class="details">
-                    <h2>name1</h2>
-                    <p>job1</p>
-                    <p>
-                        <a href="#"><i class="fa fa-facebook"></i></a>
-                        <a href="#"><i class="fa fa-instagram"></i></a>
-                        <a href="#"><i class="fa fa-twitter"></i></a>
-                        <a href="#"><i class="fa fa-linkedin"></i></a> 
-                    </p>
-                </div>
-            </div>
-    
-    
-            <div class="photo">
-                <img src="./assets/teachers/2.jpg" alt="">
-                <div class="details">
-                    <h2>name1</h2>
-                    <p>job1</p>
-                    <p>
-                        <a href="#"><i class="fa fa-facebook"></i></a>
-                        <a href="#"><i class="fa fa-instagram"></i></a>
-                        <a href="#"><i class="fa fa-twitter"></i></a>
-                        <a href="#"><i class="fa fa-linkedin"></i></a> 
-                    </p>
-                </div>
-            </div>
-    
-    
-    
-            <div class="photo">
-                <img src="./assets/teachers/2.jpg" alt="">
-                <div class="details">
-                    <h2>name1</h2>
-                    <p>job1</p>
-                    <p>
-                        <a href="#"><i class="fa fa-facebook"></i></a>
-                        <a href="#"><i class="fa fa-instagram"></i></a>
-                        <a href="#"><i class="fa fa-twitter"></i></a>
-                        <a href="#"><i class="fa fa-linkedin"></i></a> 
-                    </p>
-                </div>
-            </div>
-    
-    
-    
-    
-    
-            
-            
-        </div>
-    
-        
-
-
-        <!-- section -->
 
 
 
-        <div class="container">
-            <div class="col"><p>1st-semester</p></div>
-            <div class="col"><p>2nd-semester</p></div>
-            <div class="col"><p>3rd-semester</p></div>
-            <div class="col"><p>4th-semester</p></div>
-            <div class="col"><p>5th-semester</p></div>
-            <div class="col"><p>6th-semester</p></div>
-            <div class="col"><p>7th-semester</p></div>
-            <div class="col"><p>78th-semester</p></div>
-     
-        </div>
+    <script src="./js/homeControl.js"></script>
+ 
 </body>
 </html>
